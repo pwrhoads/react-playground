@@ -6,9 +6,11 @@ import Sidebar from "./Components/Sidebar";
 
 function App() {
   return (
-    <div>
-      <Sidebar />
-    </div>
+    <>
+      <div className="flex h-screen w-screen">
+        <Sidebar />
+      </div>
+    </>
   );
 }
 
