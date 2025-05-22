@@ -3,7 +3,9 @@ import { FaAngleRight } from "react-icons/fa";
 
 const Sidebar = () => {
   return (
-    <div className="flex max-w-72 bg-blue border border-black">Hello world</div>
+    <div className="flex w-72 h-screen bg-blue-500 border-2 border-black ml-auto">
+      Hello world
+    </div>
   );
 };
 
